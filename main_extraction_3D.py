@@ -492,8 +492,8 @@ with open('data/level_set_part0.data', 'wb') as handle:
 # call dem_base.py
 #-------------------------------------------------------------------------------
 
-os.system('yadedaily -j 4 -x -n 2_dem_base_3D.py')
-#os.system('yadedaily -j 4 -n 2_dem_base_3D.py')
+os.system('yadedaily -j 4 -x -n dem_base_3D.py')
+#os.system('yadedaily -j 4 -n dem_base_3D.py')
 
 #-------------------------------------------------------------------------------
 # read output
@@ -509,7 +509,7 @@ ax1.plot(L_surfNodes)
 ax1.set_xlabel('grains (-)')
 ax1.set_ylabel('number of nodes (-)')
 fig.tight_layout()
-fig.savefig('2_NodesSurface.png')
+fig.savefig('NodesSurface.png')
 plt.close(fig)
 
 # plot
@@ -518,7 +518,7 @@ ax1.plot(L_counter)
 ax1.set_xlabel('grains (-)')
 ax1.set_ylabel('counter (-)')
 fig.tight_layout()
-fig.savefig('2_Counter.png')
+fig.savefig('Counter.png')
 plt.close(fig)
 
 # print
