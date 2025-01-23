@@ -2,7 +2,7 @@
 Extract 3D microstructure from the [Sand Atlas database](https://sand-atlas.scigem.com/).
 
 ## How to use
-The file <i>main_extaction_3D.py</i> is called with the different parameters. <br>
+The file <i>main_extraction_3D.py</i> is called with the different parameters. <br>
 Then, it called the [YADE](https://yade-dem.org/doc/) file <i>dem_base_3D.py</i> to generate a vtk file (for visualization).
 
 A 2D version of this algorithm is available [here](https://github.com/AlexSacMorane/SandAtlas_extraction_2D).
